@@ -1,0 +1,1 @@
+# Homework JSECMAScript seminars
