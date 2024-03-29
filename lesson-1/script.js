@@ -48,5 +48,4 @@ function findElementByClass(rootEl, className) {
 }
 
 const rootElement = document.querySelector('html');
-
 console.log(findElementByClass(rootElement, 'item'));
