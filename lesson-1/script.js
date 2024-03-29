@@ -40,6 +40,7 @@ function findElementByClass(rootEl, className) {
     }
     while (rootEl.parentElement.nextElementSibling === null) {
         rootEl = rootEl.parentElement;
+        if (rootEl.parentElement === null) return null;
     }
     if (rootEl.parentElement.nextElementSibling !== null) {
         return findElementByClass(rootEl.parentElement.nextElementSibling, className);
